@@ -1,6 +1,6 @@
 import { run, HandlerContext } from "@xmtp/message-kit";
 import * as dotenv from 'dotenv';
-import { getMarketInsight, executeTransaction } from './brianApiHelper';
+import { getMarketInsight, executeTransaction } from './brianApiHelper.js'; // Ensure .js extension is included for ES modules
 
 dotenv.config();
 
